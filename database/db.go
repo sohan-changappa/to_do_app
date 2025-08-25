@@ -12,7 +12,7 @@ var DB *sql.DB
 
 func Connect() {
 	// Change credentials for your DB
-	connStr := "host=localhost user=aep029 password=sohan1234 dbname=gin_auth port=5432 sslmode=disable"
+	connStr := "host=localhost user= password= dbname=gin_auth port=5432 sslmode=disable"
 
 	var err error
 	DB, err = sql.Open("postgres", connStr)
